@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+.contFlex{
+  display: flex;
+  justify-content: space-around;
+}

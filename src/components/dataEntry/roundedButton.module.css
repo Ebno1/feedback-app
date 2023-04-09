@@ -1,0 +1,28 @@
+.cont{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.cont > li{
+    display: inline-block;
+}
+.rounded{
+    background-color: pink;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    padding: 8px;
+    margin: 0 7px;
+}
+.rounded:hover{
+    background-color: rgb(233, 214, 217);
+}
+/* .rounded:focus{
+    background-color: aqua;
+} */
+.rounded:checked{
+    border: none;
+    background-color: aqua;
+}
